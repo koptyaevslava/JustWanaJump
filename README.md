@@ -29,21 +29,13 @@ JustWanaJump lets you jump while exploring in Sea of Stars. Press the normal Int
 - BepInEx 6 for IL2CPP, including generated interop assemblies
 - .NET 6 SDK for source builds
 
-## Installation
+## Install a release
 
-### Installer
+Download and extract `JustWanaJump-Installer-0.2.1.zip`. Keep `JustWanaJumpInstaller.exe` and `JustWanaJump-0.2.1.jwjpkg` in the same folder, then run the installer. It detects Steam libraries or accepts a manually selected folder containing `SeaOfStars.exe`.
 
-1. Install BepInEx 6 for IL2CPP and close the game.
-2. Download and extract `JustWanaJump-Installer-0.2.1.zip`.
-3. Run `JustWanaJumpInstaller.exe` and select **INSTALL**.
+The installer writes only to `BepInEx/plugins/CosmeticJump`. It does not bundle BepInEx, game files, or any other mod. Removing the mod preserves its BepInEx configuration file.
 
-The installer finds Steam libraries automatically. You can also select the folder containing `SeaOfStars.exe`.
-
-### Manual installation
-
-1. Install BepInEx 6 for IL2CPP and run Sea of Stars once.
-2. Extract the manual-install ZIP into the Sea of Stars game directory.
-3. Confirm that `BepInEx/plugins/CosmeticJump/CosmeticJump.dll` exists.
+For manual installation, extract `JustWanaJump-0.2.1.zip` into the Sea of Stars game directory.
 
 ## Controls and settings
 
