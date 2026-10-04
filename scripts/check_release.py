@@ -6,9 +6,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CHECKED_SUFFIXES = {".cs", ".py", ".md", ".txt", ".json", ".yml", ".yaml", ".csproj"}
-SKIPPED_PARTS = {".git", "bin", "obj", "dist"}
+SKIPPED_PARTS = {".git", "bin", "obj", "dist", "payload"}
 LOCAL_MACHINE = re.compile(r"[A-Za-z]:[\\/](?:Users|Program Files)[\\/]", re.IGNORECASE)
-FORBIDDEN_SUFFIXES = {".dll", ".exe", ".zip", ".7z", ".rar"}
+FORBIDDEN_SUFFIXES = {".dll", ".exe", ".jwjpkg", ".zip", ".7z", ".rar"}
 
 
 def main() -> None:

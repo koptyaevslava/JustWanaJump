@@ -31,10 +31,19 @@ JustWanaJump lets you jump while exploring in Sea of Stars. Press the normal Int
 
 ## Installation
 
+### Installer
+
+1. Install BepInEx 6 for IL2CPP and close the game.
+2. Download and extract `JustWanaJump-Installer-0.2.1.zip`.
+3. Run `JustWanaJumpInstaller.exe` and select **INSTALL**.
+
+The installer finds Steam libraries automatically. You can also select the folder containing `SeaOfStars.exe`.
+
+### Manual installation
+
 1. Install BepInEx 6 for IL2CPP and run Sea of Stars once.
-2. Extract the release archive into the Sea of Stars game directory.
+2. Extract the manual-install ZIP into the Sea of Stars game directory.
 3. Confirm that `BepInEx/plugins/CosmeticJump/CosmeticJump.dll` exists.
-4. Start the game and open **Options**, then **Mods**.
 
 ## Controls and settings
 

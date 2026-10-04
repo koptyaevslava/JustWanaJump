@@ -8,10 +8,14 @@
 *.pdb
 *.dll
 *.exe
+*.jwjpkg
+*.jwjpkg.tmp
 *.zip
 *.7z
 *.rar
 *.sha256
 dist/*
 !dist/.gitkeep
+payload/*
+!payload/.gitkeep
 *.log
