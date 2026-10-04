@@ -1,6 +1,6 @@
 # Sea of Stars: JustWanaJump
 
-JustWanaJump adds a freely usable visual jump to the Windows version of Sea of Stars. Press the normal Interact button while exploring and, when no native interaction is available, the current party leader plays the game's own jump animation.
+JustWanaJump lets you jump while exploring in Sea of Stars. Press the normal Interact button when there is nothing to interact with. The party leader will use the game's own jump animation.
 
 ## Features
 
