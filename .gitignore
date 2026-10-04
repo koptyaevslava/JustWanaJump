@@ -1,0 +1,17 @@
+.vs/
+.vscode/
+.idea/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.pdb
+*.dll
+*.exe
+*.zip
+*.7z
+*.rar
+*.sha256
+dist/*
+!dist/.gitkeep
+*.log
